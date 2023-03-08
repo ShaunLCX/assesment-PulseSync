@@ -30,7 +30,7 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Employee}/{action=GetEmployeeInfo}/{id?}");
+    pattern: "{controller=Upload}/{action=UploadTextFile}/{id?}");
 
 
 app.Run();
